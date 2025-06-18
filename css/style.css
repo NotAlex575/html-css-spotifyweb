@@ -66,41 +66,41 @@
 /*MAIN*/
 
 main{
-    background-color: lightcoral;
+    background-color: rgb(27, 33, 49);
     height: calc(100vh - 100px);
     display: flex;
 }
 
 .bar{
     height: 10%;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(110, 109, 109);
 }
 
 .content{
     height: 30%;
-    border: 1px solid black;
+    color: white;
 }
 
 #sidebar{
     width: 250px;
-    background-color: red;
+    background-color: black;
+    color: white;
     height: 100%;
 }
 
 .logo{
     height: 10%;
-    background-color: brown;
 }
 
 .home-playist{
     height: 80%;
-    background-color: brown;
-    border: 1px solid black;
 }
 
 .user{
     height: 10%;
-    background-color: brown;
 }
 
 
@@ -115,23 +115,32 @@ main{
 .upgradeSection{
     width: 87vw;
     height: 10%;
-    background-color: aqua;
+    background-color: rgb(31, 31, 31);
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.upgradeSection button{
+.upgradeSection .button{
     width: 180px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
+    border: 1px solid white;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 12px;
 }
 
 /*FOOTER*/
 
 footer{
     height: 100px;
-    background-color: blue;
+    background-color: gray;
     z-index: 1;
 }
 
@@ -140,21 +149,15 @@ footer{
 }
 
 .canzone{
-    
     width:20%;
-    background-color: blue;
 }
 
 .barraCanzone{
-
     align-items: center;
     width: 60%;
-    background-color: blue;
-    border: 1px solid black;
 }
 
 .toolCanzone{
     align-items: center;
     width:20%;
-    background-color: blue;
 }
