@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 100px;
+    background-color: lightgreen;
+}
+
+main{
+    background-color: lightcoral;
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+#sidebar{
+    width: 250px;
+    background-color: red;
+    height: 100%;
+}
+
+
+#containerContent{
+    height: 100%;
+    width: calc(100vw - 250px);
+    background-color: blue;
+    overflow-y: auto;
+    color: white;
+}
+
+
+footer{
+    height: 100px;
+    background-color: blue;
+}
