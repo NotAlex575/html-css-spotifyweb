@@ -4,6 +4,66 @@
     box-sizing: border-box;
 }
 
+/*FLEX UTILITY*/
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+/*JUSTIFY-CONTENT*/
+
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+/*ALIGN-ITEMS*/
+
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
+/*W-H 100%*/
+
+.w-100per{
+    width: 100%;
+}
+
+.h-100per{
+    height: 100%;
+}
+
+/*MARGIN*/
+.margin-right-10{
+    margin-right: 10px;
+}
+
+.margin-left-10{
+    margin-left: 10px;
+}
+
+/*MAIN*/
 
 main{
     background-color: lightcoral;
@@ -15,6 +75,22 @@ main{
     width: 250px;
     background-color: red;
     height: 100%;
+}
+
+.logo{
+    height: 10%;
+    background-color: brown;
+}
+
+.home-playist{
+    height: 80%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.user{
+    height: 10%;
+    background-color: brown;
 }
 
 
@@ -41,7 +117,33 @@ main{
     border-radius: 20px;
 }
 
+/*FOOTER*/
+
 footer{
     height: 100px;
+    background-color: blue;
+}
+
+.containerFooter{
+    height: 100%;
+}
+
+.canzone{
+    
+    width:20%;
+    background-color: blue;
+}
+
+.barraCanzone{
+
+    align-items: center;
+    width: 60%;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.toolCanzone{
+    align-items: center;
+    width:20%;
     background-color: blue;
 }
