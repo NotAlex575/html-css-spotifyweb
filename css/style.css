@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-    height: 100px;
-    background-color: lightgreen;
-}
 
 main{
     background-color: lightcoral;
@@ -30,6 +26,20 @@ main{
     color: white;
 }
 
+.upgradeSection{
+    width: 87vw;
+    height: 15%;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.upgradeSection button{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+}
 
 footer{
     height: 100px;
