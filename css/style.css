@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+.smallSizeText{
+    font-size: 12px;
+    text-align: center;
+}
+
+.selected{
+    background-color: green;
+    height: 5px;
+    width: 60%;
+    display: none;
+}
+
+.hoverON{
+    cursor: pointer;
+    justify-content: center;
+}
+
+.hoverON:hover .selected{
+    display: block;
+}
+
+.hoverON:hover p{
+    margin-top: 5px;
+}
+
 /*FLEX UTILITY*/
 
 .flex{
@@ -57,6 +82,10 @@
 /*MARGIN*/
 .margin-right-10{
     margin-right: 10px;
+}
+
+.margin-right-30{
+    margin-right: 30px;
 }
 
 .margin-left-10{
