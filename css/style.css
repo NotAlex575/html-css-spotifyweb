@@ -271,7 +271,7 @@ footer{
     border-radius: 20px;
 }
 
-.barMusic .progress{
+.barMusic .progress, .barVolume .progress{
     width: 12%;
     height: 100%;
     background-color: white;
@@ -285,4 +285,18 @@ footer{
 
 .barToolPlay i{
     cursor: pointer;
+}
+
+.barraVolume{
+    align-items: center;
+    width: 150px;
+}
+
+.barVolume{
+    height:10px;
+    width: 8vw;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgb(71, 70, 70);
+    border-radius: 20px;
 }
