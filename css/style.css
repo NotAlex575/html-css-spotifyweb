@@ -14,6 +14,12 @@
     text-align: center;
 }
 
+.mediumSizeText{
+    font-size: 15px;
+    text-align: center;
+}
+
+
 .selected{
     background-color: rgb(27, 33, 49);
     height: 5px;
@@ -103,6 +109,10 @@
 
 .margin-left-15{
     margin-left: 15px;
+}
+
+.margin-left-20{
+    margin-left: 20px;
 }
 
 .margin-bottom-10{
@@ -228,6 +238,11 @@ footer{
 
 .canzone{
     width:20%;
+}
+
+.canzone img{
+    width: 50px;
+    margin-left: 10px;
 }
 
 .barraCanzone{
