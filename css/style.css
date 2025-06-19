@@ -77,6 +77,18 @@
 }
 
 /*MARGIN*/
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.margin-top-15{
+    margin-top: 15px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
 .margin-right-10{
     margin-right: 10px;
 }
@@ -87,6 +99,14 @@
 
 .margin-left-10{
     margin-left: 10px;
+}
+
+.margin-left-15{
+    margin-left: 15px;
+}
+
+.margin-bottom-10{
+    margin-bottom: 15px;
 }
 
 /*MAIN*/
@@ -117,9 +137,12 @@ main{
     width: 15vw;
     background-color: black;
     color: white;
-    height: 960px;
+    height: 850px;
 }
 
+.home-playist{
+    height: 80%;
+}
 
 .logo{
     height: 10%;
@@ -130,8 +153,13 @@ main{
     width: 80%;
 }
 
-.home-playist{
-    height: 80%;
+.box{
+    min-width: 30px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 25px;
 }
 
 .user{
