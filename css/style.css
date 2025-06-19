@@ -8,6 +8,7 @@
     color: white;
 }
 
+
 .smallSizeText{
     font-size: 12px;
     text-align: center;
@@ -17,6 +18,12 @@
     background-color: rgb(27, 33, 49);
     height: 5px;
     width: 60%;
+}
+
+.selectedSidebar{
+    background-color: black;
+    height: 35px;
+    width: 5px;
 }
 
 /*FLEX UTILITY*/
@@ -113,8 +120,14 @@ main{
     height: 960px;
 }
 
+
 .logo{
     height: 10%;
+}
+
+.logo img{
+    margin-top: 10px;
+    width: 80%;
 }
 
 .home-playist{
@@ -172,6 +185,9 @@ main{
     background-color: green;
 }
 
+.hoverON:hover .selectedSidebar{
+    background-color: green;
+}
 
 /*FOOTER*/
 footer{
