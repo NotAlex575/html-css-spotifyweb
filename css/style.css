@@ -105,6 +105,7 @@ main{
 }
 
 .bar{
+    margin-left: 300px;
     height: 10%;
     display: flex;
     justify-content: space-around;
@@ -113,15 +114,17 @@ main{
 }
 
 .content{
+    margin-left: 300px;
     height: 30%;
     color: white;
 }
 
 #sidebar{
+    position: fixed;
     width: 250px;
     background-color: black;
     color: white;
-    height: 100%;
+    height: 960px;
 }
 
 .logo{
@@ -146,7 +149,7 @@ main{
 }
 
 .upgradeSection{
-    width: 87vw;
+    width: 100vw;
     height: 10%;
     background-color: rgb(31, 31, 31);
     display: flex;
