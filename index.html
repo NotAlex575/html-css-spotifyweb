@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -71,12 +73,47 @@
         <div class="container flex-row">
             <!--NOME E IMMAGINE CANZONE CHE SI STA RIPRODUCENDO-->
             <div class="canzone flex align-items-center margin-left-10">immagine /nome / like canzone</div>
-            <!--BARRA AVVIO / STOP CANZONE-->
-            <div class="barraCanzone flex justify-content-center align-items-center">avvio / stop riproduzione canzone</div>
+            <!--BARRA CANZONE / TOOL CANZONE-->
+            <div class="flex-col play-music">
+                <!--TOOL CANZONE-->
+                <div class="flex flex-row w-100per justify-content-center color-white">
+                    <!--PULSANTE RIPRODUZIONE PLAYIST RANDOM-->
+                    <div class="barToolPlay flex justify-content-center">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                    <!--PULSANTE CANZONE PRECEDENTE-->
+                    <div class="barToolPlay flex justify-content-center">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </div>
+                    <!--PULSANTE PLAY-->
+                    <div class="barToolPlay flex justify-content-center">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!--PULSANTE CANZONE SUCCESSIVA-->
+                    <div class="barToolPlay flex justify-content-center">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <!--PULSANTE RIPRODUZIONE CANZONE ATTUALE LOOP-->
+                    <div class="barToolPlay flex justify-content-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </div>
+                <!--BARRA CANZONE (CON TIMING CANZONE E DURATA CANZONE)-->
+                <div class="flex-row play-music barraCanzone ">
+                    <!--TEMPO ATTUALE DELLA RIPRODUZIONE DELLA CANZONE-->
+                    <div class="color-white">0:20</div>
+                    <!--BARRA CANZONE-->
+                    <div class="barMusic">
+                        <div class="progress"></div>
+                    </div>
+                    <!--DURATA CANZONE-->
+                    <div class="color-white">3:50</div>
+                </div>
+                
+            </div>
             <!--TOOL CANZONE (TRA IMPOSTAZIONI E VOLUME)-->
             <div class="toolCanzone flex justify-content-end align-items-center margin-right-10">audio / impostazioni canzone</div>
         </div>
     </footer>
-
 </body>
 </html>

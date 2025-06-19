@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.color-white{
+    color: white;
+}
+
 .smallSizeText{
     font-size: 12px;
     text-align: center;
@@ -168,9 +172,17 @@ main{
 /*FOOTER*/
 
 footer{
+    position: fixed;
+    width: 100%;
     height: 100px;
-    background-color: gray;
+    background-color: rgb(47, 47, 47);
     z-index: 1;
+}
+
+.containerContent{
+    flex-wrap: wrap;
+    margin-left: 500px;
+    min-width: 1200px;
 }
 
 .container{
@@ -189,4 +201,36 @@ footer{
 .toolCanzone{
     align-items: center;
     width:20%;
+}
+
+.play-music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.barMusic{
+    height:10px;
+    width:50%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgb(71, 70, 70);
+    border-radius: 20px;
+}
+
+.barMusic .progress{
+    width: 12%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.barToolPlay{
+    width: calc(20% / 5);
+    margin-right: 5px;
+}
+
+.barToolPlay i{
+    cursor: pointer;
 }
