@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+    .Responsive{
+        display: none;
+    }
+    .notResponsive{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .notResponsive{
+        display: none;
+    }
+    .Responsive{
+        display: block;
+    }
+    .flex-row-home{
+        display: flex;
+        justify-content: center;
+    }
+    .Responsive i{
+        margin-right: 17px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+}
