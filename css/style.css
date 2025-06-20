@@ -184,7 +184,7 @@ main{
     z-index: 2;
     width: 15vw;
     background-color: black;
-    color: white;
+    color: gray;
     height: 850px;
 }
 
@@ -264,6 +264,18 @@ main{
 
 .hoverON:hover .selectedSidebar{
     background-color: green;
+}
+
+.hoverON:hover div{
+    color: white;
+}
+
+.hoverON:hover p{
+    color: white;
+}
+
+.hoverON:hover i{
+    color: white;
 }
 
 /*FOOTER*/
