@@ -1,3 +1,5 @@
+/*RESPONSIVE (GRANDEZZA TABLET)*/
+
 @media screen and (min-width: 768px) {
     .Responsive{
         display: none;
@@ -5,10 +7,18 @@
     .notResponsive{
         display: block;
     }
+    .justify-content-around-if-responsive{
+        justify-content: center;
+    }
+    .w-100per-not-responsive{
+        width: 100%;
+    }
 }
 
+/*NON RESPONSIVE (GRANDEZZA PC)*/
 
 @media screen and (max-width: 767px) {
+
 
     .notResponsive{
         display: none;
@@ -25,5 +35,12 @@
         margin-left: 5px;
         margin-bottom: 5px;
         font-size: 20px;
+    }
+    .justify-content-around-if-responsive{
+        justify-content: space-between;
+    }
+
+    .w-100per-not-responsive{
+        width: 75%;
     }
 }

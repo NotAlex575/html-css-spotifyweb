@@ -48,7 +48,7 @@
                         <div class="Responsive"><i class="fa-solid fa-swatchbook text-size-medium"></i></div>
                     </div>
                      <!--PLAYLIST-->
-                    <div class="margin-left-15 margin-top-20">
+                    <div class="notResponsive margin-left-15 margin-top-20">
                         <div><h2 class="color-white">Playlist</h2></div>
                         <div class="flex-row w-100per margin-top-10 flex align-items-center">
                             <div class="box"><strong>+</strong></div>
@@ -64,10 +64,14 @@
                     </div>
                 </div>
                 <!--USER-->
-                <div class="user">
+                <div class="user notResponsive">
                     <div class="flex-row align-items-center hoverON"><i class="fa-regular fa-circle-down"></i><p class="margin-left-15">Installa app</p></div>
-                    <div class="margin-bottom-10 flex justify-content-center">________________</div>
+                    <div class="margin-bottom-10 flex justify-content-center">____________</div>
                     <div class="flex-row align-items-center hoverON"><i class="fa-regular fa-circle-user"></i><p class="margin-left-15">John Doe</p></div>
+                </div>
+                <div class="user Responsive">
+                    <div class="margin-bottom-10 flex-row justify-content-center align-items-center hoverON"><i class="fa-regular fa-circle-down"></i></div>
+                    <div class="flex-row justify-content-center align-items-center hoverON"><i class="fa-regular fa-circle-user"></i></div>
                 </div>
             </div>
         </div>
@@ -239,14 +243,18 @@
                         <div><p class="color-white smallSizeText">Brano Nome</p></div>
                     </div>
                     <!--LIKE + FOLDER-->
-                    <div class="margin-left-20 color-white"><i class="fa-regular fa-heart"></i></div>
-                    <div class="margin-left-10 color-white"><i class="fa-regular fa-folder"></i></div>
+                    <div class="margin-left-20 color-white notResponsive hoverON"><i class="fa-regular fa-heart"></i></div>
+                    <div class="margin-left-10 color-white notResponsive hoverON"><i class="fa-regular fa-folder"></i></div>
+                    <div class="Responsive flex-col">
+                        <i class="color-white fa-regular fa-heart hoverON"></i>
+                        <i class="color-white fa-regular fa-folder hoverON"></i>
+                    </div>
                 </div>
             </div>
             <!--BARRA CANZONE / TOOL CANZONE-->
             <div class="flex-col play-music">
                 <!--TOOL CANZONE-->
-                <div class="flex flex-row w-100per justify-content-center color-white">
+                <div class="flex flex-row w-100per-not-responsive justify-content-around-if-responsive color-white">
                     <!--PULSANTE RIPRODUZIONE PLAYIST RANDOM-->
                     <div class="barToolPlay flex justify-content-center">
                         <i class="fa-solid fa-shuffle"></i>
@@ -273,7 +281,7 @@
                     <!--TEMPO ATTUALE DELLA RIPRODUZIONE DELLA CANZONE-->
                     <div class="color-white">0:20</div>
                     <!--BARRA CANZONE-->
-                    <div class="barMusic">
+                    <div class="barMusic hoverON">
                         <div class="progress"></div>
                     </div>
                     <!--DURATA CANZONE-->
@@ -284,14 +292,14 @@
             <div class="toolCanzone flex justify-content-end align-items-center margin-right-10">
                 <div class="flex-row color-white w-100per flex align-items-center">
                     <!--IMPOSTAZIONI-->
-                    <div><i class="fa-solid fa-bars"></i></div>
+                    <div><i class="fa-solid fa-bars hoverON"></i></div>
                     <!--SCREEN-->
-                    <div class="margin-left-10"><i class="fa-solid fa-desktop"></i></div>
+                    <div class="margin-left-10"><i class="fa-solid fa-desktop hoverON"></i></div>
                     <!--MUTE/UNMUTE AUDIO-->
-                    <div class="margin-left-10"><i class="fa-solid fa-volume-high"></i></div>
+                    <div class="margin-left-10"><i class="fa-solid fa-volume-high hoverON"></i></div>
                     <!--REGOLA AUDIO-->
                     <div class="margin-left-10">
-                    <div class="barVolume">
+                    <div class="barVolume hoverON">
                         <div class="progress"></div>
                     </div>
                     </div>
