@@ -21,24 +21,28 @@
                 </div>
                 <div class="home-playist">
                     <!--OGNI PULSANTE NELLA SIDEBAR-->
+                    <!--HOME-->
                     <div class="flex-row hoverON align-items-center">
                         <!--HOVER -> si crea al lato sinistro una barra verda-->
                         <div class="selectedSidebar"></div>
                         <!--HOME-->
                         <div><i class="margin-left-10 fa-solid fa-house text-size-medium"></i><strong class="margin-left-10">Home</strong></div>
                     </div>
+                    <!--CERCA-->
                     <div class="flex-row hoverON align-items-center">
                         <!--HOVER -> si crea al lato sinistro una barra verda-->
                         <div class="selectedSidebar"></div>
                         <!--CERCA-->
                         <div><i class="margin-left-10 fa-solid fa-magnifying-glass text-size-medium"></i><strong class="margin-left-10">Cerca</strong></div>
                     </div>
+                    <!--LA TUA LIBRERIA-->
                     <div class="flex-row hoverON align-items-center">
                         <!--HOVER -> si crea al lato sinistro una barra verda-->
                         <div class="selectedSidebar"></div>
                         <!--LA TUA LIBRERIA-->
                         <div><i class="margin-left-10 fa-solid fa-house text-size-medium"></i><strong class="margin-left-10">La tua libreria</strong></div>
                     </div>
+                     <!--PLAYLIST-->
                     <div class="margin-left-15 margin-top-20">
                         <div><h2>Playlist</h2></div>
                         <div class="flex-row w-100per margin-top-10 flex align-items-center">
@@ -54,7 +58,7 @@
                         <div class="margin-top-15">Nome Playist</div>
                     </div>
                 </div>
-
+                <!--USER-->
                 <div class="user">
                     <div class="flex-row align-items-center"><i class="fa-regular fa-circle-down"></i><p class="margin-left-15">Installa app</p></div>
                     <div class="margin-bottom-10 flex justify-content-center">________________</div>
@@ -73,35 +77,95 @@
                 <div class="container">
                     <!--BARRA FILTRI-->
                     <div class="bar">
-                        <div class="flex-row">
-                            <div class="hoverON flex-col" id="hoverFiltri">
-                                <div class="margin-right-30"><p class="smallSizeText">IN EVIDENZA</p></div>
-                                <div class="selected"></div>
-                            </div>
-                            <div class="hoverON flex-col" id="hoverFiltri">
-                                <div class="margin-right-30"><p class="smallSizeText">PODCAST</p></div>
-                                <div class="selected"></div>
-                            </div>
-                            <div class="hoverON flex-col" id="hoverFiltri">
-                                <div class="margin-right-30"><p class="smallSizeText">CLASSIFICHE</p></div>
-                                <div class="selected"></div>
-                            </div>
-                            <div class="hoverON flex-col" id="hoverFiltri">
-                                <div class="margin-right-30"><p class="smallSizeText">GENERI E MOOD</p></div>
-                                <div class="selected"></div>
-                            </div>
-                            <div class="hoverON flex-col" id="hoverFiltri">
-                                <div class="margin-right-30"><p class="smallSizeText">NUOVE USCITE</p></div>
-                                <div class="selected"></div>
-                            </div>
-                            <div class="hoverON flex-col" id="hoverFiltri">
-                                <div class="margin-right-30"><p class="smallSizeText">SCOPRI</p></div>
-                                <div class="selected"></div>
+                        <div class="content">
+                            <div class="flex-row justify-content-center wrap w-100per margin-top-20">
+                                <div class="hoverON flex-col" id="hoverFiltri">
+                                    <div class="margin-right-30"><p class="smallSizeText">IN EVIDENZA</p></div>
+                                    <div class="selected"></div>
+                                </div>
+                                <div class="hoverON flex-col" id="hoverFiltri">
+                                    <div class="margin-right-30"><p class="smallSizeText">PODCAST</p></div>
+                                    <div class="selected"></div>
+                                </div>
+                                <div class="hoverON flex-col" id="hoverFiltri">
+                                    <div class="margin-right-30"><p class="smallSizeText">CLASSIFICHE</p></div>
+                                    <div class="selected"></div>
+                                </div>
+                                <div class="hoverON flex-col" id="hoverFiltri">
+                                    <div class="margin-right-30"><p class="smallSizeText">GENERI E MOOD</p></div>
+                                    <div class="selected"></div>
+                                </div>
+                                <div class="hoverON flex-col" id="hoverFiltri">
+                                    <div class="margin-right-30"><p class="smallSizeText">NUOVE USCITE</p></div>
+                                    <div class="selected"></div>
+                                </div>
+                                <div class="hoverON flex-col" id="hoverFiltri">
+                                    <div class="margin-right-30"><p class="smallSizeText">SCOPRI</p></div>
+                                    <div class="selected"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!--ZONA CANZONI ASCOLTATE RECENTEMENTE-->
-                    <div class="content">recent played</div>
+                    <div class="content">
+                        <h2 class="margin-left-10">RECENTLY PLAYED</h2>
+                        <div class="flex-row wrap w-100per margin-top-20">
+                            <div class="flex-col w-card-spotify-6">
+                                <div class="card h-100per margin-right-10">
+                                    <div class="h-card-content-3 margin-bottom-10 flex justify-content-center">
+                                        <img src="img/metal_lifting.jpg" alt="">
+                                    </div>
+                                    <h4 class="text-center margin-bottom-10">Heavy metal</h4>
+                                    <p class="text-center margin-bottom-10 color-gray">Subtitles</p>
+                                </div>
+                            </div>
+                            <div class="flex-col w-card-spotify-6">
+                                <div class="card h-100per margin-right-10">
+                                    <div class="h-card-content-3 margin-bottom-10 flex justify-content-center">
+                                        <img src="img/stranger.jpeg" alt="">
+                                    </div>
+                                    <h4 class="text-center margin-bottom-10">Stranger Things, Vol. 1 (a Netflex Original Series Soundtrack)</h4>
+                                    <p class="text-center margin-bottom-10 color-gray">Kyle Dixon & Michael Stein</p>
+                                </div>
+                            </div>
+                            <div class="flex-col w-card-spotify-6">
+                                <div class="card h-100per margin-right-10">
+                                    <div class="h-card-content-3 margin-bottom-10 flex justify-content-center">
+                                        <img src="img/aquietplace.jpeg" alt="">
+                                    </div>
+                                    <h4 class="text-center margin-bottom-10">A quiet place</h4>
+                                    <p class="text-center margin-bottom-10 color-gray">Subtitles</p>
+                                </div>
+                            </div>
+                            <div class="flex-col w-card-spotify-6">
+                                <div class="card h-100per margin-right-10">
+                                    <div class="h-card-content-3 margin-bottom-10 flex justify-content-center">
+                                        <img src="img/split.jpeg" alt="">
+                                    </div>
+                                    <h4 class="text-center margin-bottom-10">Split</h4>
+                                    <p class="text-center margin-bottom-10 color-gray">Subtitles</p>
+                                </div>
+                            </div>
+                            <div class="flex-col w-card-spotify-6">
+                                <div class="card h-100per margin-right-10">
+                                    <div class="h-card-content-3 margin-bottom-10 flex justify-content-center">
+                                        <img src="img/cure.jpeg" alt="">
+                                    </div>
+                                    <h4 class="text-center margin-bottom-10">A cure from weilness</h4>
+                                    <p class="text-center margin-bottom-10 color-gray">Subtitles</p>
+                                </div>
+                            </div>
+                            <div class="flex-col w-card-spotify-6">
+                                <div class="card h-100per margin-right-10">
+                                    <div class="h-card-content-3 margin-bottom-10 flex justify-content-center">
+                                        <img src="img/sinister.jpeg" alt="">
+                                    </div>
+                                    <h4 class="text-center margin-bottom-10">Sinister</h4>
+                                    <p class="text-center margin-bottom-10 color-gray">Subtitles</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!--ZONA CANZONI ASCOLTATE PER LO USER-->
                     <div class="content">per l'utente</div>
                     <!--ZONA CANZONI PIU POPOLARI-->

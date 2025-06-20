@@ -8,6 +8,13 @@
     color: white;
 }
 
+.color-gray{
+    color: gray;
+}
+
+.imgBox{
+    object-fit: contain;
+}
 
 .smallSizeText{
     font-size: 12px;
@@ -16,6 +23,10 @@
 
 .mediumSizeText{
     font-size: 15px;
+    text-align: center;
+}
+
+.text-center{
     text-align: center;
 }
 
@@ -47,6 +58,10 @@
     flex-direction: row;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 /*JUSTIFY-CONTENT*/
 
 .justify-content-start{
@@ -73,6 +88,15 @@
 }
 
 /*W-H 100%*/
+
+.w-card-spotify-6{
+    width: 190px;
+}
+
+.h-card-content-3{
+    height: 150px;
+
+}
 
 .w-100per{
     width: 100%;
@@ -119,6 +143,7 @@
     margin-bottom: 15px;
 }
 
+
 /*MAIN*/
 
 main{
@@ -136,9 +161,15 @@ main{
 }
 
 .content{
-    min-height: 300px;
+    width: 100%;
     padding: 20px 0;
     color: white;
+}
+
+.card{
+    position: relative;
+    height: 350px;
+    overflow: hidden;
 }
 
 #sidebar{
@@ -177,6 +208,7 @@ main{
 }
 
 .container{
+    margin-left: 15px;
     padding-top: 20px;
     padding-bottom: 120px;
     background-color: rgb(27, 33, 49);
