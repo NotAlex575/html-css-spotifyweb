@@ -76,6 +76,10 @@
     justify-content: flex-end;
 }
 
+.justify-content-around{
+    justify-content: space-around;
+}
+
 /*ALIGN-ITEMS*/
 
 
@@ -139,6 +143,10 @@
     margin-left: 20px;
 }
 
+.margin-left-55{
+    margin-left: 55px;
+}
+
 .margin-bottom-10{
     margin-bottom: 15px;
 }
@@ -172,6 +180,11 @@ main{
     height: 20%;
     color: white;
 }
+
+.content .h2_{
+    margin-left: 55px;
+}
+
 
 .card{
     position: relative;
@@ -274,7 +287,7 @@ main{
     color: white;
 }
 
-.hoverON:hover i{
+.hoverON:hover {
     color: white;
 }
 
