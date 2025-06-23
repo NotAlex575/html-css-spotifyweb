@@ -1,5 +1,5 @@
-/*RESPONSIVE (GRANDEZZA TABLET)*/
 
+/*NON RESPONSIVE (GRANDEZZA PC)*/
 @media screen and (min-width: 768px) {
     .Responsive{
         display: none;
@@ -15,8 +15,7 @@
     }
 }
 
-/*NON RESPONSIVE (GRANDEZZA PC)*/
-
+/*RESPONSIVE (GRANDEZZA TABLET)*/
 @media screen and (max-width: 767px) {
 
 
@@ -42,5 +41,9 @@
 
     .w-100per-not-responsive{
         width: 75%;
+    }
+
+    .w-card-spotify-6{
+        width: 240px;
     }
 }
