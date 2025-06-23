@@ -13,6 +13,10 @@
     .w-100per-not-responsive{
         width: 100%;
     }
+
+    .margin-0-responsive{
+        margin-top: 20px;
+    }
 }
 
 /*RESPONSIVE (GRANDEZZA TABLET)*/
@@ -45,5 +49,18 @@
 
     .w-card-spotify-6{
         width: 240px;
+    }
+
+    .margin-0-responsive{
+        margin-top: 5px;
+    }
+
+    .centerResponsive{
+        justify-content: center;
+    }
+
+    .card{
+        margin-top: 20px;
+        margin-bottom: -80px;
     }
 }
